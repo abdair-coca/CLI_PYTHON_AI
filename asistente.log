@@ -1,0 +1,3 @@
+2026-05-10 14:05:00,043 [INFO] Llamada a API — 1 mensajes en historial
+2026-05-10 14:05:00,414 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-10 14:05:00,416 [INFO] Respuesta OK — entrada: 37 tokens, salida: 58 tokens

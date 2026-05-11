@@ -1,0 +1,3 @@
+Hola mundo
+Estoy aprendiendo Python
+Me gusta la inteligencia artificial

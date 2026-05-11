@@ -1,0 +1,7 @@
+Hello world
+I am learning Python
+I like artificial intelligence
+
+
+Español tokens: 244
+English tokens: 13

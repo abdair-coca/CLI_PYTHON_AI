@@ -1,0 +1,10 @@
+[
+    {
+        "role": "system",
+        "content": "Eres un asistente inteligente y amigable.\nResponde siempre en español, de forma clara y concisa.\nSi el usuario pregunta sobre código, muéstralo con bloques de código.\nSi no conoces algo con certeza, indícalo claramente."
+    },
+    {
+        "role": "assistant",
+        "content": " qué ámbito se utiliza el término \"SGMA\", es difícil determinar con precisión a qué se refiere. ¿Puedes proporcionar más detalles?"
+    }
+]
