@@ -82,7 +82,7 @@ This project teaches practical concepts used in modern AI applications:
 ```bash
 git clone https://github.com/abdair-coca/CLI_PYTHON_AI
 
-cd ai-chat-python
+cd CLI_PYTHON_AI
 ```
 
 ---
