@@ -6,8 +6,7 @@ Uso: python asistente.py
  
 from dotenv import load_dotenv
 load_dotenv()  # Carga .env antes de importar groq
- 
-from groq import Groq
+
 import time
 import sys
 import os
@@ -200,8 +199,8 @@ def main():
     # Banner de bienvenida
     print(f"""{CYAN}{BOLD}
 ╔══════════════════════════════════════════╗
-║        🤖 Asistente IA — CLI             ║
-║   Powered by Claude (Groq)          ║
+║        🤖 Asistente IA — CLI            ║
+║           Powered by (Groq)              ║
 ╚══════════════════════════════════════════╝{RESET}
 Modelo: {MODELO}
 Escribe {BOLD}/ayuda{RESET} para ver los comandos disponibles.
@@ -217,6 +216,7 @@ Usa {BOLD}Ctrl+D{RESET} o {BOLD}/salir{RESET} para terminar.
     # Estado de la sesión
     historial: list = [{'role':'system', 'content':SYSTEM_PROMPT}] # Iniciamos con el System Prompt
     tokens_totales: dict = {"entrada": 0, "salida": 0}
+    
     
     # Bucle principal
     while True:

@@ -124,8 +124,6 @@ def main():
         print(f"{RED} Nombre invalido. {RESET}")
         return
     
-    nombreArchivo = f"test_{nombreFuncion}.py"
-    
     status, response = crearPy(client, nombreFuncion, descript)
         
     if status:

@@ -19,7 +19,7 @@ while True:
                 "content": f'{mensaje}',
             }
         ],
-        model="llama-3.3-70b-versatile",
+        model=os.getenv("MODEL"),
     )
-
+    print(chat_completion)
     print(f'ChatBot: {chat_completion.choices[0].message.content}')

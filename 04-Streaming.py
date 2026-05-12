@@ -10,7 +10,7 @@ client = Groq(
 
 print("Respuesta con streaming:\n")
 
-def chat_streaming( historial: list, messUser: str) -> str:
+def chat_streaming( historial: list, messUser: str):
     
     historial.append({'role': 'user', 'content': messUser})
     
@@ -37,7 +37,6 @@ def chat_streaming( historial: list, messUser: str) -> str:
     historial.append({
     'role': 'assistant',
     'content': respuesta_completa})
-    return respuesta_completa
 
 # Prueba
 conversacion = []

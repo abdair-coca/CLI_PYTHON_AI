@@ -145,6 +145,7 @@ def main():
             traducciones.append(response)
         else: 
             break
+    
     with open(archivo_salida, "w", encoding="utf-8") as salida:
 
         for traduccion in traducciones:

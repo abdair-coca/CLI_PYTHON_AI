@@ -82,7 +82,6 @@ def cargar_historial():
 def resumir(historial: list, client: Groq) -> bool:
 
     try:
-
         response = client.chat.completions.create(
             model=MODELO,
             max_tokens=200,

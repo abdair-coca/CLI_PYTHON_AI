@@ -2,7 +2,7 @@
 Ejercicio 4 — Analizador de código (Capítulo 6 + todo)
 Crea analyzer.py que:
 19.	Lea un archivo .py del disco cuya ruta proporciona el usuario.
-20.	Lo envíe a Claude con el system prompt: 'Eres un experto en Python. 
+20.	Lo envíe a Groq con el system prompt: 'Eres un experto en Python. 
 Analiza el código y responde en español.'
 21.	Ofrezca tres modes vía argumento de línea de comandos (sys.argv): 
 --explicar, --mejorar, --bugs.
@@ -155,10 +155,7 @@ Usa {BOLD}Ctrl+D{RESET} o {BOLD}/salir{RESET} para terminar.
                    
         if not routeFile.strip():
             routeFile = input(f"{BOLD}/{mode}/ Ingrese la ruta del archivo:\n{RESET}")
-        
-        if not routeFile.strip():
-            print(f"{RED} Error: Tiene que ingresar una ruta.{RESET}")
-            break
+            continue
 
 if __name__ == "__main__":
     main()
