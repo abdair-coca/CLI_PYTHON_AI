@@ -80,7 +80,7 @@ This project teaches practical concepts used in modern AI applications:
 ## 1. Clone the repository
 
 ```bash
-git clone [https://github.com/abdair-coca/ai-chat-python.git](https://github.com/abdair-coca/CLI_PYTHON_AI)
+git clone https://github.com/abdair-coca/CLI_PYTHON_AI
 
 cd ai-chat-python
 ```
